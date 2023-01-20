@@ -1,6 +1,4 @@
-time = input('Веедите время суток:')
-pogoda = input('Введите погоду:')
-
-if time = 'утро':
-
-
+test=["птица", "дракон", "небо"]
+print(str(len(test)))
+test.remove("дракон")
+print(str(len(test)))
