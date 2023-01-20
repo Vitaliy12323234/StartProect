@@ -1,18 +1,27 @@
 time = input('введите время суток:')
 pogoda = input('введите погоду:')
 
-if time == 'утро':
-     pogoda == 'пасмурно', 'ясно','солнечно'
-     print('иди на работу')
-if time == 'день':
-     pogoda == 'пасмурно', 'ясно','солнечно'
-     print('иди на обед')
-if time == 'вечер':
-     pogoda =='ясно'
-     print('иди прогуляйся')
+Time = ['утро', 'день', 'вечер', 'ночь']
+Pogoda = ['ясно', 'облачно', 'дождь', 'снег', 'туман', 'град']
 
-print("завер")
+time = Time
+pogoda = Pogoda
 
+if (Time[0]) + (Pogoda[0]):
+     print('idi na rabotu')
+if (Time[1]) + (Pogoda[1]):
+     print('idi na obed')
+
+if Time[0]:
+    pogoda == 'ясно'
+    print('иди на работу')
+if Time[1]:
+    Pogoda[1]
+    print('иди на обед')
+if Time[2]:
+    Pogoda[2]
+    print('иди прогуляйся')
+# пока не разобрался до конца
 
 # таблица
 test=["птица", "дракон", "небо"]
